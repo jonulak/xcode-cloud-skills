@@ -1,0 +1,14 @@
+{
+  "name": "jonulak",
+  "owner": {
+    "name": "jonulak",
+    "url": "https://github.com/jonulak"
+  },
+  "description": "Agent skills for Xcode Cloud CI/CD.",
+  "plugins": [
+    {
+      "name": "xcode-cloud",
+      "source": "./"
+    }
+  ]
+}

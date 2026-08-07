@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "xcode-cloud",
+  "displayName": "Xcode Cloud Skills",
+  "version": "0.1.0",
+  "description": "Drive Xcode Cloud from Claude Code: trigger and monitor build runs with the asc CLI, triage failed builds through the build-action chain, and author ci_scripts with Apple's verified environment variables.",
+  "author": {
+    "name": "jonulak",
+    "url": "https://github.com/jonulak"
+  },
+  "homepage": "https://github.com/jonulak/xcode-cloud-skills",
+  "repository": "https://github.com/jonulak/xcode-cloud-skills",
+  "license": "MIT",
+  "keywords": [
+    "xcode-cloud",
+    "ci-cd",
+    "app-store-connect",
+    "ios",
+    "macos",
+    "asc"
+  ]
+}

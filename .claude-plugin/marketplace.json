@@ -4,11 +4,20 @@
     "name": "jonulak",
     "url": "https://github.com/jonulak"
   },
-  "description": "Agent skills for Xcode Cloud CI/CD.",
+  "description": "Agent skills for CI/CD and production observability.",
   "plugins": [
     {
       "name": "xcode-cloud",
-      "source": "./"
+      "source": "./",
+      "description": "Trigger and triage Xcode Cloud builds, and author ci_scripts."
+    },
+    {
+      "name": "sentry-cli",
+      "source": {
+        "source": "github",
+        "repo": "jonulak/sentry-cli-skills"
+      },
+      "description": "Triage Sentry issues, manage releases, and upload sourcemaps and debug symbols."
     }
   ]
 }

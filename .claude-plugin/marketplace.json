@@ -14,8 +14,8 @@
     {
       "name": "sentry-cli",
       "source": {
-        "source": "github",
-        "repo": "jonulak/sentry-cli-skills"
+        "source": "url",
+        "url": "https://github.com/jonulak/sentry-cli-skills.git"
       },
       "description": "Triage Sentry issues, manage releases, and upload sourcemaps and debug symbols."
     }
